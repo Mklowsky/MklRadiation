@@ -1,0 +1,36 @@
+name: MklRadiationBeta
+main: com.mkl.radiationbeta.MklRadiationBeta
+version: 1.0
+api-version: 1.20
+
+commands:
+  radiacja:
+    description: Ustaw bezpieczną strefę radiacji
+    usage: /radiacja <rozmiar>
+    permission: mklradiation.radiacja
+    permission-message: Nie masz uprawnień do użycia tej komendy.
+
+  plyn:
+    description: Daje miksturę Płynu Lugola
+    usage: /plyn
+    permission: mklradiation.plyn
+    permission-message: Nie masz uprawnień do użycia tej komendy.
+
+  radiacjareload:
+    description: Przeładowuje konfigurację radiacji
+    usage: /radiacjareload
+    permission: mklradiation.radiacjareload
+    permission-message: Nie masz uprawnień do użycia tej komendy.
+
+permissions:
+  mklradiation.radiacja:
+    description: Pozwala używać komendy /radiacja
+    default: op
+
+  mklradiation.plyn:
+    description: Pozwala używać komendy /plyn
+    default: op
+
+  mklradiation.radiacjareload:
+    description: Pozwala używać komendy /radiacjareload
+    default: op

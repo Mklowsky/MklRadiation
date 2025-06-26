@@ -1,0 +1,8 @@
+safeZone:
+  x: 0.0
+  y: 0.0
+  z: 0.0
+  radius: 0
+potionDurationSeconds: 30 
+messages:
+  enterRadiationZone: "&c[Radiacja] &7Gracz &e%player% &7wszedł do strefy radiacji!"
